@@ -1,0 +1,203 @@
+@media screen and (max-width:1130px) {
+    .article {
+        padding: 0;
+    }
+    .header {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .img1 {
+        margin-right: 10%;
+    }
+    .img3 {
+        display: none;
+    }
+    .texts2 .text2,.texts2 .text6 {
+        width: 90%;
+    }
+    .texts2 .text6,.t {
+        text-align: center;
+    }
+    .texts2{
+        width: 90%;
+    }
+    .b {
+        width: 100%;
+    }
+    .b1{
+        width: 50%;
+        float: left;
+    }
+    .b2 {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+    
+}
+@media screen and (max-width:700px) {   
+    .img1,.b1,.quti,.article5 .button,.quti [class^='logo'] {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,0);
+        float: left; 
+        margin-right: 0;  
+    }
+    .texts {
+        width: 100%;
+        position: relative;
+        transform: translate(0, 0%);
+        padding: 0 10%;        
+    }
+    .text1,.text2 {
+        width: 100%;
+    }
+    .brand {
+        top: 130px;
+    }
+    .img3,.article5 img {
+        display: block;
+        width: 90%;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,0);
+        margin-left: 0%;
+    }
+    .texts2 {
+        top: 0;
+    }
+    .b1,.quti {
+        width: 100%;
+
+    }
+    .article3,.article4,.article5 {
+        display: block;
+        
+    }
+    .article4,.article5 {
+        padding: 5%;
+        text-align: center;
+    }
+    .text7 {
+        width: 90%;
+        padding: 30px 0%;
+        margin: 0 5%;
+        border-right: none;
+        border-bottom: 1px solid rgb(163, 163, 163);
+    }
+    .article3 .text2,.tex3 {
+        width: 100%;
+        padding: 30px 5%;
+    }
+    @keyframes aylana {
+        0% {
+            left: 50%;
+            transform: translate(-52%,0) rotate(5deg);
+        }
+        50% {
+            left: 50%;
+            transform: translate(-52%,0) rotate(-5deg);
+        }
+        100% {
+            left: 50%;
+            transform: translate(-52%,0) rotate(5deg);
+            
+        }
+    }
+    @keyframes past {
+        0% {
+            left: 50%;
+            transform: translate(-50%,0) translate(6px, -6px);
+        }
+        50% {
+            left: 50%;
+            transform: translate(-50%,0) translate(-6px, 6px);
+        }
+        100% {
+            left: 50%;
+            transform: translate(-50%,0) translate(6px, -6px);
+            
+        }
+    } 
+    @keyframes left {
+        0% {
+            opacity: 0;
+            transform: translate(-100px,0);
+        }
+        100% {
+            opacity: 1;
+            transform: translate(0px,0);
+        }
+    }
+      
+}
+@media screen and (max-width:500px) {
+    .img1,.article5 img {
+        width: 90%;
+    }
+    .img2 {
+        width: 120%;
+        margin-left: -20%;
+    }
+    .brand img {
+        width: 100%;
+    }
+}
+@media screen and (max-width:440px) {
+    .header .button {
+        display: none;
+    }
+    .texts {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .menyu {
+        display: none;
+        top: 90px;
+        transform: translate(0,0%);
+        background-color: rgba(255, 255, 255,0.9);
+        right: 0;
+        width: 100vw;
+        z-index: 1;
+    }
+    .menyu li a {
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    }
+    .bars {
+        display: block;
+    }
+    .texts {
+        padding: 0 5%;
+    }
+    .img1 {
+        margin-right: 5%;
+    }
+    .header .button {
+        right: 80px;
+    }
+    .article3,.article4,.article5 {
+        padding: 10% 5%;
+    }
+}
+@media screen and (max-width:390px) {
+    .text3,.text1,.text2,.text7 {
+        text-align: center;
+        width: 100%;
+    }
+    .a .button {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,0);
+        margin-bottom: 10px;
+    }
+    .texts2 .text2,.b1 .text2,.quti .text2 {
+        text-align: left;
+    }
+    .b1 {
+        margin: 10px 0;
+    }
+}
